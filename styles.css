@@ -21,6 +21,10 @@ button {
     border-radius: 10px;
 }
 
+.cta button {
+    border: 3px solid #F9FAF8;
+}
+
 .logo {
     font-size: 24px;
     font-weight: 900;
@@ -143,4 +147,24 @@ h2 {
 #box {
     display: flex;
     flex-direction: column;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 12px;
+    width: 1200px;
+    padding: 60px 100px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 30px;
 }
